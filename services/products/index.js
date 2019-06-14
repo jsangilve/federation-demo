@@ -12,6 +12,15 @@ const typeDefs = gql`
     price: Int
     weight: Int
   }
+
+  type Subscription {
+    priceChanged: PriceChangedPayload
+  }
+
+  type PriceChangedPayload {
+		upc: String!
+    price: Int!
+  }
 `;
 
 const resolvers = {

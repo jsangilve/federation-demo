@@ -18,6 +18,7 @@
   "dependencies": {
     "@apollo/gateway": "latest",
     "apollo-server": "^2.5.1-alpha.1",
-    "graphql": "latest"
+    "graphql": "latest",
+    "graphql-tools": "^4.0.4"
   }
 }
