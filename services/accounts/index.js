@@ -11,6 +11,10 @@ const typeDefs = gql`
     name: String
     username: String
   }
+
+  type Subscription {
+    somethingHappened(input: String!): String!
+  }
 `;
 
 const resolvers = {
